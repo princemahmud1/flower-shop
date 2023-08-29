@@ -23,7 +23,15 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 100% !important;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.py-60 {
+    padding: 80px 0;
 }
 
 /*----------------------------- Header Style ------------------------*/
@@ -61,3 +69,50 @@ img {
 .header-right {
     width: 40%;
 }
+
+/*---------------------------- Featured Section ------------------------*/
+.featured h2 {
+    color: #272727;
+    font-size: 30px;
+}
+
+.featured p {
+    color: #7c7677;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.featured-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+
+.featured-item-top {
+    width: 345px;
+    height: 390px;
+    background-color: #f1dde7;
+    border-radius: 160px 160px 0 0;
+    overflow: hidden;
+    margin-bottom: 22px;
+}
+
+.featured-item-top img {
+    width: 240px;
+    position: relative;
+    top: 68px;
+}
+
+.featured-item-top-2 {
+    background-color: #d9eff0;
+}
+
+.featured-item-top-3 {
+    background-color: #e3ebdb;
+}
+
+.featured-item-bottom u {
+    font-weight: 600;
+}
+
+/*---------------------------- Deal Section ------------------------*/
