@@ -155,3 +155,20 @@ img {
 .deal-right img {
     width: 230px;
 }
+
+/*---------------------------- Instagram Section ------------------------*/
+.instagram h2 {
+    font-weight: 600;
+}
+
+.instagram p {
+    color: #7c7677;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.instagram-imgs {
+    display: flex;
+    margin-top: 33px;
+    gap: 15px;
+}
